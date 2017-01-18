@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+
+  <link rel="shortcut icon" type="image/png" href="../lib/jasmine-2.5.2/jasmine_favicon.png">
+  <link rel="stylesheet" type="text/css" href="../lib/jasmine-2.5.2/jasmine.css">
+
+  <script type="text/javascript" src="../lib/jasmine-2.5.2/jasmine.js"></script>
+  <script type="text/javascript" src="../lib/jasmine-2.5.2/jasmine-html.js"></script>
+  <script type="text/javascript" src="../lib/jasmine-2.5.2/boot.js"></script>
+  <script src="../homework/homework_170108.js"></script>
+
+</head>
+<body>
+  <script type="text/javascript">
+  //function b(fruit){
+  //  var num = fruit();
+  //  console.log(num);
+  //}
+  //b(function a() {
+  //  return 111;
+  //});
+
+
+  //function a(f){ f(1) };
+  //a(function(num){console.log(num)})
+
+  //function a(txt){return txt(1)}
+  //function b(num){return num};
+  //console.log(a(b));
+
+
+
+
+
+  //function a(arg){return arg()}
+
+  //function b(){return 1;}
+
+  //a(b);
+  //console.log(a(b));
+
+function two(v) {
+  var num = 1;
+  var type = typeof v;
+  if(type === 'function') num += v();
+  if(type === 'number') num += v;
+  return num;
+}
+function one(){
+  return 1;
+}
+
+
+//console.log(two(one()));
+//console.log(two(one));
+
+
+
+  </script>
+</body>
+</html>
