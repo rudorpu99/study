@@ -80,7 +80,10 @@ console.log(sortPrice);
  { name: '감', quantity: '250개', price: '2300원' } ]
  */
 
-
+var a = {age : 30};
+var b = a;
+b.age = 20;
+console.log(a.age);
 
 
 /*
